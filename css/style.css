@@ -18,7 +18,7 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 1.5rem 5%;
-  border-bottom: 1px solid #949494;
+  box-shadow: 0 5px 5px 0 rgba(148, 148, 148, 0.3);
   position: fixed;
   top: 0;
   right: 0;
@@ -26,23 +26,16 @@ body {
   z-index: 999;
 }
 
-/* .navbar .navbar-logo {
-  font-size: 2rem;
-  font-weight: 700;
-  color: black;
-  font-style: italic;
-} */
-
 .navbar img {
-  height: 10rem;
-  align-items: baseline;
+  height: 50px;
 }
 
 .navbar .navbar-mid a {
   color: black;
   font-style: bold;
   display: inline-block;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
+  font-weight: 700;
   margin: 0 1rem;
 }
 
@@ -64,7 +57,7 @@ body {
 
 /* Media Queries */
 /* Laptop */
-@media (max-width: 1366px) {
+/* @media (max-width: 1366px) {
   html {
     font-size: 75%;
   }
@@ -87,9 +80,9 @@ body {
     display: block;
     margin: 1.5rem;
     padding: 0.5rem;
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
-}
+} */
 
 /* Phone */
 @media (max-width: 450px) {
@@ -115,19 +108,26 @@ body {
     display: block;
     margin: 1.5rem;
     padding: 0.5rem;
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
 }
 
 .navbar-end .btn-masuk {
   background-color: #ff833e;
   border-radius: 10px;
-  color: #000;
+  color: black;
   padding: 10px 15px;
   text-align: center;
   text-decoration: none;
-  font-size: 18px;
+  font-size: 1.3rem;
+  font-weight: bold;
   margin-right: 0.5rem;
+}
+
+.navbar-end .btn-masuk:hover,
+.navbar-end .btn-daftar:hover {
+  background-color: #ffffff;
+  color: #ff833e;
 }
 
 .navbar-end .btn-daftar {
@@ -137,7 +137,8 @@ body {
   padding: 10px 15px;
   text-align: center;
   text-decoration: none;
-  font-size: 18px;
+  font-size: 1.3rem;
+  font-weight: bold;
   margin-right: 0.5rem;
 }
 
