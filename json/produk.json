@@ -1,0 +1,56 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "name": "Weekly Pass MLBB"
+    },
+    {
+      "id": 2,
+      "name": "Mobile legend"
+    },
+    {
+      "id": 3,
+      "name": "PUBG Mobile"
+    },
+    {
+      "id": 4,
+      "name": "Free Fire"
+    },
+    {
+      "id": 5,
+      "name": "Genshin Impact"
+    }
+  ],
+  "produk": [
+    {
+      "id": 1,
+      "image": "image/wpmlbb.png",
+      "name": "Weekly Pass MLBB",
+      "deskripsi": "Moonton"
+    },
+    {
+      "id": 2,
+      "image": "image/ml.png",
+      "name": "Mobile legend",
+      "deskripsi": "Moonton"
+    },
+    {
+      "id": 3,
+      "image": "image/ff.png",
+      "name": "Free Fire",
+      "deskripsi": "Garena"
+    },
+    {
+      "id": 4,
+      "image": "image/pubg.png",
+      "name": "PUBG Mobile",
+      "deskripsi": "Region Indo"
+    },
+    {
+      "id": 5,
+      "image": "image/genshin.png",
+      "name": "Genshin Impact",
+      "deskripsi": "Mihoyo"
+    }
+  ]
+}
