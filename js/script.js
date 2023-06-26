@@ -21,10 +21,10 @@ fetch("json/produk.json")
     data.produk.forEach((produk) => {
       contentHTML += `
     <div class= "card">
-    <img src"${produk.image}" alt="${produk.name}" style="width: 100%" />
-    <h1>${produk.name}</h1>
+    <img src="${produk.gambar}" alt="${produk.nama}" />
+    <h1>${produk.nama}</h1>
     <h5>${produk.deskripsi}</h5>
-    <i data-feather="menu"></i>
+    <h3>${produk.pembayaran}</h3>
     </div>
     `;
     });

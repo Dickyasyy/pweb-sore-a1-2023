@@ -1,56 +1,44 @@
 {
-  "categories": [
-    {
-      "id": 1,
-      "name": "Weekly Pass MLBB"
-    },
-    {
-      "id": 2,
-      "name": "Mobile legend"
-    },
-    {
-      "id": 3,
-      "name": "PUBG Mobile"
-    },
-    {
-      "id": 4,
-      "name": "Free Fire"
-    },
-    {
-      "id": 5,
-      "name": "Genshin Impact"
-    }
-  ],
   "produk": [
     {
       "id": 1,
-      "image": "image/wpmlbb.png",
-      "name": "Weekly Pass MLBB",
-      "deskripsi": "Moonton"
+      "gambar": "image/wpmlbb.png",
+      "nama": "Weekly Pass MLBB",
+      "deskripsi": "Moonton",
+      "pembayaran": "Top Up",
+      "icon": "image/credit-card.svg"
     },
     {
       "id": 2,
-      "image": "image/ml.png",
-      "name": "Mobile legend",
-      "deskripsi": "Moonton"
+      "gambar": "image/ml.png",
+      "nama": "Mobile legend",
+      "deskripsi": "Moonton",
+      "pembayaran": "Top Up",
+      "icon": "image/credit-card.svg"
     },
     {
       "id": 3,
-      "image": "image/ff.png",
-      "name": "Free Fire",
-      "deskripsi": "Garena"
+      "gambar": "image/ff.png",
+      "nama": "Free Fire",
+      "deskripsi": "Garena",
+      "pembayaran": "Top Up",
+      "icon": "image/credit-card.svg"
     },
     {
       "id": 4,
-      "image": "image/pubg.png",
-      "name": "PUBG Mobile",
-      "deskripsi": "Region Indo"
+      "gambar": "image/pubg.png",
+      "nama": "PUBG Mobile",
+      "deskripsi": "Region Indo",
+      "pembayaran": "Top Up",
+      "icon": "image/credit-card.svg"
     },
     {
       "id": 5,
-      "image": "image/genshin.png",
-      "name": "Genshin Impact",
-      "deskripsi": "Mihoyo"
+      "gambar": "image/genshin.png",
+      "nama": "Genshin Impact",
+      "deskripsi": "Mihoyo",
+      "pembayaran": "Top Up",
+      "icon": "image/credit-card.svg"
     }
   ]
 }
