@@ -12,6 +12,9 @@ document.addEventListener("click", function (e) {
   }
 });
 
+var navbar = document.getElementsByClassName("navbar-mid");
+console.log(navbar);
+
 const productContainer = document.querySelector(".row-product ul");
 
 fetch("json/produk.json")

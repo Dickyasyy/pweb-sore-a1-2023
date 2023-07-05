@@ -288,6 +288,7 @@ html {
   #hamburger-menu {
     display: inline-block;
   }
+
   .navbar .navbar-mid {
     position: absolute;
     top: 100%;
